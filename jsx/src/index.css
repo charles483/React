@@ -1,0 +1,48 @@
+.heading {
+  color: green;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  font-style: normal;
+  color: red;
+  padding: 10px;
+  text-decoration: underline;
+  display: flex;
+}
+#g {
+  color: brown;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.content p {
+  text-align: left;
+  text-shadow: 0cqmax;
+}
+.content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+}
+.content img:hover {
+  width: 300px;
+  height: 300px;
+  transition: 1s ease-in-out;
+}
+p:hover {
+  display: block;
+  font-size: 400;
+}
+p {
+  display: block;
+  position: relative;
+}
