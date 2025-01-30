@@ -1,0 +1,29 @@
+.mor {
+  color: #ff0000;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20%;
+  font-family: "Arial", sans-serif;
+  text-shadow: 0 0 10px #ffa500, 0 0 20px #ffa500, 0 0 30px #ffa500,
+    0 0 40px #ffa500, 0 0 50px #ffa500, 0 0 60px #ffa500, 0 0 70px #ffa500;
+}
+
+.aft {
+  color: #008000;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20%;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 0 10px #008000, 0 0 20px #008000, 0 0 30px #008000,
+    0 0 40px #008000, 0 0 50px #008000, 0 0 60px #008000, 0 0 70px #008000;
+}
+
+.even {
+  color: #0000ff;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20%;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 30px #0000ff,
+    0 0 40px #0000ff, 0 0 50px #0000ff, 0 0 60px #0000ff, 0 0 70px #0000ff;
+}

@@ -6,21 +6,21 @@ function App() {
     console.log("Time is in the morning range.");
     return (
       <div>
-        <h1>Good morning</h1>
+        <h1 className="mor">Good morning</h1>
       </div>
     );
   } else if (time >= 12 && time < 18) {
     console.log("Time is in the afternoon range.");
     return (
       <div>
-        <h1>Good afternoon</h1>
+        <h1 className="aft">Good afternoon</h1>
       </div>
     );
   } else {
     console.log("Time is in the evening range.");
     return (
       <div>
-        <h1>Good evening</h1>
+        <h1 className="even">Good evening</h1>
       </div>
     );
   }
